@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 - 2026-05-21
+
+### Fixed
+
+- CI now validates editable package installation with `pip install -e .` instead of relying only on `PYTHONPATH`.
+- Release metadata now reflects the package-installable standalone plugin state.
+
 ## 0.1.0 - 2026-05-21
 
 Initial standalone Hermes plugin release for Memory Evidence Repair governance.
