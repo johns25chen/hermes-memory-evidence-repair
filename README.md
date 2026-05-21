@@ -117,3 +117,7 @@ Syntax check:
 ```bash
 python -m py_compile $(find src tests -name '*.py' -print)
 ```
+
+## Install smoke test
+
+See `INSTALL.md` for the clean-virtualenv release artifact smoke test.
