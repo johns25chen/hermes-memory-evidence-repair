@@ -1,0 +1,30 @@
+name: memory-evidence-repair
+version: 0.1.0
+description: Read-only Memory Evidence Repair governance workflow for Hermes Memory Fabric.
+author: Hermes Memory Fabric contributors
+kind: standalone
+provides_tools:
+  - memory_evidence_repair_planner
+  - memory_evidence_repair_approval_candidates
+  - memory_evidence_repair_apply_preview
+  - memory_evidence_repair_manual_commit_dry_run
+  - memory_evidence_repair_commit_gate
+  - memory_evidence_repair_commit_ledger
+  - memory_evidence_repair_commit_receipt
+  - memory_evidence_repair_write_lock_gate
+  - memory_evidence_repair_executor_preview
+  - memory_evidence_repair_post_commit_audit_preview
+  - memory_evidence_repair_rollback_plan
+  - memory_evidence_repair_rollback_drill_preview
+  - memory_evidence_repair_recovery_decision_gate
+  - memory_evidence_repair_recovery_execution_preview
+  - memory_evidence_repair_recovery_executor_preview
+  - memory_evidence_repair_recovery_completion_receipt
+  - memory_evidence_repair_recovery_completion_audit_preview
+  - memory_evidence_repair_recovery_closure_gate
+  - memory_evidence_repair_recovery_closure_ledger
+  - memory_evidence_repair_recovery_closure_ledger_audit
+  - memory_evidence_repair_recovery_closure_governance_seal
+  - memory_evidence_repair_recovery_closure_governance_seal_audit
+  - memory_evidence_repair_recovery_closure_finalization_readiness
+  - memory_evidence_repair_recovery_closure_finalization_readiness_audit

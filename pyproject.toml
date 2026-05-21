@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hermes-memory-evidence-repair"
+version = "0.1.0"
+description = "Standalone Hermes plugin for read-only Memory Evidence Repair governance workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Hermes Memory Fabric contributors"}]
+dependencies = []
+
+[project.entry-points."hermes_agent.plugins"]
+memory-evidence-repair = "hermes_memory_evidence_repair"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
