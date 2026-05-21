@@ -8,7 +8,7 @@ from typing import Any
 from hermes_memory_evidence_repair.core.memory_evidence_repair_recovery_execution_preview import (
     build_evidence_repair_recovery_execution_preview,
 )
-from tools.memory_evidence_repair_recovery_decision_gate_tool import (
+from hermes_memory_evidence_repair.tools.memory_evidence_repair_recovery_decision_gate_tool import (
     MEMORY_EVIDENCE_REPAIR_RECOVERY_DECISION_GATE_SCHEMA,
     memory_evidence_repair_recovery_decision_gate_tool,
 )

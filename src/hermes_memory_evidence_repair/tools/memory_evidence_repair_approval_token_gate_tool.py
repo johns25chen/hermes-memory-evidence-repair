@@ -8,7 +8,7 @@ from typing import Any
 from hermes_memory_evidence_repair.core.memory_evidence_repair_approval_token_gate import (
     build_evidence_repair_approval_token_gate,
 )
-from tools.memory_evidence_repair_human_approval_token_tool import (
+from hermes_memory_evidence_repair.tools.memory_evidence_repair_human_approval_token_tool import (
     MEMORY_EVIDENCE_REPAIR_HUMAN_APPROVAL_TOKEN_SCHEMA,
     memory_evidence_repair_human_approval_token_tool,
 )

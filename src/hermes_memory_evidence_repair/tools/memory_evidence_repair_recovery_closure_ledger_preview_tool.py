@@ -8,7 +8,7 @@ from typing import Any
 from hermes_memory_evidence_repair.core.memory_evidence_repair_recovery_closure_ledger_preview import (
     build_evidence_repair_recovery_closure_ledger_preview,
 )
-from tools.memory_evidence_repair_recovery_closure_gate_tool import (
+from hermes_memory_evidence_repair.tools.memory_evidence_repair_recovery_closure_gate_tool import (
     MEMORY_EVIDENCE_REPAIR_RECOVERY_CLOSURE_GATE_SCHEMA,
     memory_evidence_repair_recovery_closure_gate_tool,
 )

@@ -8,7 +8,7 @@ from typing import Any
 from hermes_memory_evidence_repair.core.memory_evidence_repair_recovery_closure_governance_seal_audit_preview import (
     build_evidence_repair_recovery_closure_governance_seal_audit_preview,
 )
-from tools.memory_evidence_repair_recovery_closure_governance_seal_preview_tool import (
+from hermes_memory_evidence_repair.tools.memory_evidence_repair_recovery_closure_governance_seal_preview_tool import (
     MEMORY_EVIDENCE_REPAIR_RECOVERY_CLOSURE_GOVERNANCE_SEAL_PREVIEW_SCHEMA,
     memory_evidence_repair_recovery_closure_governance_seal_preview_tool,
 )
