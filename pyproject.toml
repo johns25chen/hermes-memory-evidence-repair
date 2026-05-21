@@ -13,7 +13,7 @@ authors = [{name = "Hermes Memory Fabric contributors"}]
 dependencies = []
 
 [project.entry-points."hermes_agent.plugins"]
-memory-evidence-repair = "hermes_memory_evidence_repair"
+memory-evidence-repair = "hermes_memory_evidence_repair:register"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
