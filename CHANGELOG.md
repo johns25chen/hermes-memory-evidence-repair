@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 - 2026-05-21
+
+### Added
+
+- CI now builds source and wheel distributions and validates them with `twine check` on Python 3.11 and 3.12.
+
 ## 0.1.1 - 2026-05-21
 
 ### Fixed

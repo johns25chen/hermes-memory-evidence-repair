@@ -86,7 +86,7 @@ Any future tool that performs durable Memory writes must keep these gates:
 
 ## Release status
 
-Current version: `0.1.1`
+Current version: `0.1.2`
 
 Validation status:
 

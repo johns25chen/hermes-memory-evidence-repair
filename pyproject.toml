@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hermes-memory-evidence-repair"
-version = "0.1.1"
+version = "0.1.2"
 description = "Standalone Hermes plugin for read-only Memory Evidence Repair governance workflows."
 readme = "README.md"
 requires-python = ">=3.11"
