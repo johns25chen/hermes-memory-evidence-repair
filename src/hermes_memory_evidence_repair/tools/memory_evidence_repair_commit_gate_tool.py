@@ -16,7 +16,7 @@ from hermes_memory_evidence_repair.core.memory_evidence_repair_commit_gate impor
     build_evidence_repair_commit_gate,
 )
 from hermes_memory_evidence_repair.core.memory_evidence_repair_planner import build_evidence_repair_plan
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 MEMORY_EVIDENCE_REPAIR_COMMIT_GATE_SCHEMA = {

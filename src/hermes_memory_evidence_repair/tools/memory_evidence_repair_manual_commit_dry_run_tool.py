@@ -27,7 +27,7 @@ from hermes_memory_evidence_repair.core.memory_evidence_repair_rollback_plan imp
 from hermes_memory_evidence_repair.core.memory_evidence_repair_snapshot_planner import (
     build_evidence_repair_snapshot_plan,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 MEMORY_EVIDENCE_REPAIR_MANUAL_COMMIT_DRY_RUN_SCHEMA = {

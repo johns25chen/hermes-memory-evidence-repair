@@ -19,7 +19,7 @@ from hermes_memory_evidence_repair.core.memory_evidence_repair_commit_ledger imp
     build_evidence_repair_commit_ledger,
 )
 from hermes_memory_evidence_repair.core.memory_evidence_repair_planner import build_evidence_repair_plan
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 MEMORY_EVIDENCE_REPAIR_COMMIT_LEDGER_SCHEMA = {

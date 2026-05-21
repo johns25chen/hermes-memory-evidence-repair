@@ -12,7 +12,7 @@ from tools.memory_evidence_repair_rollback_drill_preview_tool import (
     MEMORY_EVIDENCE_REPAIR_ROLLBACK_DRILL_PREVIEW_SCHEMA,
     memory_evidence_repair_rollback_drill_preview_tool,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 _UPSTREAM_PROPERTIES = dict(

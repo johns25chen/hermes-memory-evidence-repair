@@ -12,7 +12,7 @@ from tools.memory_evidence_repair_executor_preview_tool import (
     MEMORY_EVIDENCE_REPAIR_EXECUTOR_PREVIEW_SCHEMA,
     memory_evidence_repair_executor_preview_tool,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 _UPSTREAM_PROPERTIES = dict(

@@ -12,7 +12,7 @@ from tools.memory_evidence_repair_recovery_approval_token_gate_tool import (
     MEMORY_EVIDENCE_REPAIR_RECOVERY_APPROVAL_TOKEN_GATE_SCHEMA,
     memory_evidence_repair_recovery_approval_token_gate_tool,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 _UPSTREAM_PROPERTIES = dict(

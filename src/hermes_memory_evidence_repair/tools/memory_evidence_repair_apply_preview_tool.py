@@ -13,7 +13,7 @@ from hermes_memory_evidence_repair.core.memory_evidence_repair_approval import (
     build_evidence_repair_approval_candidates,
 )
 from hermes_memory_evidence_repair.core.memory_evidence_repair_planner import build_evidence_repair_plan
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 MEMORY_EVIDENCE_REPAIR_APPLY_PREVIEW_SCHEMA = {

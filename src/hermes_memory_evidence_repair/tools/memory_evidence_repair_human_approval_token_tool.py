@@ -11,7 +11,7 @@ from hermes_memory_evidence_repair.core.memory_evidence_repair_human_approval_to
 from tools.memory_evidence_repair_manual_commit_dry_run_tool import (
     memory_evidence_repair_manual_commit_dry_run_tool,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 MEMORY_EVIDENCE_REPAIR_HUMAN_APPROVAL_TOKEN_SCHEMA = {

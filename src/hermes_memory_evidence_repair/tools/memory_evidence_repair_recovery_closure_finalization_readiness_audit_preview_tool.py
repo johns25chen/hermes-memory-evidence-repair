@@ -12,7 +12,7 @@ from tools.memory_evidence_repair_recovery_closure_finalization_readiness_previe
     MEMORY_EVIDENCE_REPAIR_RECOVERY_CLOSURE_FINALIZATION_READINESS_PREVIEW_SCHEMA,
     memory_evidence_repair_recovery_closure_finalization_readiness_preview_tool,
 )
-from tools.registry import tool_error
+from hermes_memory_evidence_repair.compat import tool_error
 
 
 _UPSTREAM_PROPERTIES = dict(
