@@ -83,6 +83,21 @@ Any future tool that performs durable Memory writes must keep these gates:
 4. receipt/audit output,
 5. tests proving preview-only behavior remains preview-only.
 
+
+## Release status
+
+Current version: `0.1.0`
+
+Validation status:
+
+- Local syntax check: passing
+- Local tests: 403 passing
+- GitHub Actions CI: passing on Python 3.11 and 3.12
+
+Repository:
+
+- https://github.com/johns25chen/hermes-memory-evidence-repair
+
 ## Local validation
 
 Smoke test:
