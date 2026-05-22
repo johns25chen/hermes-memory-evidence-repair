@@ -86,13 +86,14 @@ Any future tool that performs durable Memory writes must keep these gates:
 
 ## Release status
 
-Current version: `0.1.2`
+Current version: `0.1.3`
 
 Validation status:
 
 - Local syntax check: passing
 - Local tests: 403 passing
 - GitHub Actions CI: passing on Python 3.11 and 3.12
+- Clean wheel install smoke test: passing locally and in CI
 
 Repository:
 
@@ -116,6 +117,13 @@ Syntax check:
 
 ```bash
 python -m py_compile $(find src tests -name '*.py' -print)
+```
+
+Clean wheel install smoke test after building distributions:
+
+```bash
+python -m build --sdist --wheel
+python scripts/verify_wheel_install.py
 ```
 
 ## Install smoke test

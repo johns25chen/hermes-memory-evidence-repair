@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3 - 2026-05-22
+
+### Added
+
+- CI now validates the built wheel in a clean virtual environment and verifies the Hermes plugin entry point, registration count, and dedicated toolset boundary.
+- Added `scripts/verify_wheel_install.py` so release artifact smoke testing is reproducible locally and in CI.
+- Added package metadata for project URLs, keywords, and Python classifiers.
+
 ## 0.1.2 - 2026-05-21
 
 ### Added
